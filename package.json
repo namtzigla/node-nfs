@@ -16,18 +16,18 @@
     },
     "main": "lib/index.js",
     "dependencies": {
-        "assert-plus": "0.1.4",
-        "clone": "0.1.10",
-        "oncrpc": "0.1.0",
-        "once": "1.2.0"
+        "assert-plus": "0.1.5",
+        "clone": "1.0.2",
+        "oncrpc": "namtzigla/node-oncrpc#08268e2b86822f6e19d7157c652cfaa9fe3c1f6f",
+        "once": "1.3.2"
     },
     "devDependencies": {
-        "bunyan": "0.22.0",
-        "nodeunit": "0.8.1",
-        "nodeunit-plus": "0.0.1",
-        "node-uuid": "1.4.1",
-        "statvfs": "2.1.0",
-        "vasync": "1.4.0"
+        "bunyan": "1.3.5",
+        "nodeunit": "0.9.1",
+        "nodeunit-plus": "namtzigla/nodeunit-plus",
+        "node-uuid": "1.4.3",
+        "statvfs": "briankereszturi/node-statvfs#18235719b7bcb4177866c36d6da7885b24cae853",
+        "vasync": "1.6.3"
     },
     "scripts": {
         "test": "for f in $(ls test/*.test.js) ; do nodeunit $f ; done"
